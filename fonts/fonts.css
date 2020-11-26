@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'Roboto Regular';
+	src: url('../fonts/roboto_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/roboto_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/roboto_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/roboto_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/roboto_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/roboto_regular.svg#roboto_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+	font-family: 'PT Serif Caption';
+	src: url('../fonts/pt_serif_caption.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/pt_serif_caption.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/pt_serif_caption.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/pt_serif_caption.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/pt_serif_caption.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/pt_serif_caption.svg#pt_serif_caption') format('svg'); /* Chrome < 4, Legacy iOS */
+}
