@@ -11,6 +11,27 @@ body {
 }
 .header-logo {
   padding: 40px 0;
+  padding-left: 44px;
+  position: relative;
+}
+.header-logo__ellipse {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background: #0056EC;
+  border-radius: 50%;
+  opacity: .7;
+}
+.header-logo__ellipse_light {
+  top: 56%;
+  left: 8px;
+  background: #C8DBFB;
+}
+.header-logo__text {
+  font: bold 24px/31px PT Serif Caption, arial, helvetica;
 }
 .header-nav {
   display: flex;
