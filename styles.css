@@ -1,3 +1,70 @@
-p {
+body {
+  margin: 0;
+}
+.body-wrapper {
+  margin: auto;
+  width: 80%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header-logo {
+  padding: 40px 0;
+  padding-left: 44px;
+  position: relative;
+}
+.header-logo__ellipse {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background: #0056EC;
+  border-radius: 50%;
+  opacity: .7;
+}
+.header-logo__ellipse_light {
+  top: 56%;
+  left: 8px;
+  background: #C8DBFB;
+}
+.header-logo__text {
+  font: bold 24px/31px PT Serif Caption, arial, helvetica;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-nav__link {
+  padding: 0 13px;
+}
+.header-nav__link:last-child {
+  padding-right: 0;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.content-main {
+  width: 37%;
+}
+.content-main__title {
   font-family: PT Serif Caption;
+  font-weight: bold;
+  font-size: 66px;
+  line-height: 87px;
+}
+.content-main__text {
+  width: 80%;
+  font-family: Roboto Regular;
+  font-size: 22px;
+  line-height: 26px;
+}
+.content-main__button {
+  font-family: Roboto Regular;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
 }
